@@ -18,6 +18,7 @@
 
 (import-swank-mop-symbols :mezzano.clos '(:class-default-initargs
                                           :class-direct-default-initargs
+                                          :slot-definition-documentation
                                           :specializer-direct-methods
                                           :generic-function-declarations))
 
