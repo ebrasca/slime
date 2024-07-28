@@ -9,7 +9,8 @@
 ;;; Administrivia
 
 (defpackage swank/mezzano
-  (:use cl swank/backend))
+  (:use cl swank/backend)
+  (:local-nicknames (:sys.int :mezzano.internals)))
 
 (in-package swank/mezzano)
 
